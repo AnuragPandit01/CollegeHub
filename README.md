@@ -118,19 +118,3 @@ For questions or suggestions, reach out via the  on the platform or email us at 
 
 
 ---
-
-### Features and Structure
-1. **Content**:
-   - Overview of CollegeHub and its purpose.
-   - Detailed installation steps including database setup and PHPMailer configuration.
-   - Usage instructions and project structure for clarity.
-   - Information on technologies, contributing, licensing, and contact.
-
-2. **Formatting**:
-   - Used Markdown headings (`#`, `##`), lists, and code blocks for readability.
-   - Included placeholders (e.g., GitHub URL, email) that you can customize.
-
-3. **No Code Execution**:
-   - This is a static Markdown file, so no PHP or database interaction is needed.
-
----
