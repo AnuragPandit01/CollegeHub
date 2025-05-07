@@ -99,7 +99,7 @@ require_once '../includes/header.php';
                                 <form method="POST" style="display:inline-block">
                                     <input type="hidden" name="item_id" value="<?php echo $item['id']; ?>">
                                     <input type="hidden" name="action" value="update_status">
-                                    <select name="status" onchange="this.form.submit()" class="bg-light-cream border border-light-gray rounded p-1 text-deep-navy focus:outline-none" style="box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);">
+                                    <select name="status" onchange="this.form.submit()" class="bg-black border border-light-gray rounded p-1 text-deep-navy focus:outline-none" style="box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);">
                                         <option value="pending" <?php echo $item['status'] === 'pending' ? 'selected' : ''; ?>>Pending</option>
                                         <option value="approved" <?php echo $item['status'] === 'approved' ? 'selected' : ''; ?>>Approved</option>
                                         <option value="rejected" <?php echo $item['status'] === 'rejected' ? 'selected' : ''; ?>>Rejected</option>
